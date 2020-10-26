@@ -43,17 +43,6 @@ class HomeFragment : androidx.fragment.app.Fragment() {
             }
         })
 
-//        homeViewModel.games.observe(viewLifecycleOwner, Observer {
-//            it?.let {
-//                if (it != null) {
-//                    binding.medianPriceLayout.priceChangesTV.text = "Grew up " + it * 100 + "%"
-//                } else {
-//                    binding.medianPriceLayout.priceChangesTV.text = "Drop " + it * 100 + "%"
-//                }
-//
-//            }
-//        })
-
 
         return binding.root
     }

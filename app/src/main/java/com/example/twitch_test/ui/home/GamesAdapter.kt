@@ -41,8 +41,8 @@ class GamesAdapter: androidx.recyclerview.widget.RecyclerView.Adapter<GamesAdapt
 
             game_title.text = item.game.name
             //game_picture.text = ""
-            channels_number.text = "1"
-            spectators_nubmer.text = "1"
+            channels_number.text = item.channels
+            spectators_nubmer.text = item.viewers
         }
 
         companion object {
